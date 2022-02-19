@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronomy Picture of the Day</title>
+    <link rel="stylesheet" href="nasaAPOD.css">
+    <script src="nasaAPOD.js" defer></script>
+    <script src="Jquery.js" defer></script>
+</head>
+
+<body>
+    </head>
+
+    <body onload="consultar()">
+        <header class="cabecalho">
+            <img src="./imagens/astronomia.png" alt="Logo" class="logo">
+            <h1 class="tituloSite">apod</h1>
+        </header>
+
+        <main class="principal">
+            <h2 class="tituloSite">Astronomy Picture of the Day</h2>
+
+
+
+            <input type="date" class="data">
+
+            <p id="texto"></p>
+
+            <button class="botao" onclick="consultar()">Pesquisar</button>
+
+
+            <p id="data"></p>
+
+            <div id="midia">
+
+            </div>
+
+            <h2 id="titulo"></h2>
+
+            <p id="autor"></p>
+
+            <p id="explicacao"></p>
+
+        </main>
+
+        <footer class="rodape">
+            <div class="rodapeUm">
+                <div>
+                    <p class="copyright">copyright &#169; 2022 Thainá Monteiro</p>
+                    <p class="copyright">Página desenvolvida para fins educacionais</p>
+
+                </div>
+            </div>
+
+
+            </div>
+        </footer>
+
+        <script src="https://momentjs.com/downloads/moment-with-locales.js"></script>
+
+    </body>
+
+</html>

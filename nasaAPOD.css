@@ -1,0 +1,146 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  
+  background: #e9e7e77a;
+}
+
+.cabecalho{
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background-color: #f1f1f1;
+  border: 1px gray solid;
+  width: 100%;
+}
+
+.logo{
+  width: 58px;
+  padding: 4px;
+  margin-left: 30px;
+  margin-right: 15px;
+}
+
+.tituloSite{
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.principal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  min-height: 100vh;
+  margin: 38px 0;
+}
+
+#introducao{
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  padding: 0 15px;
+  margin: 5px;
+}
+
+#data{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 20px;
+}
+
+#midia{
+  width: 500px;
+  height: auto;
+  margin-top: 8px;
+}
+
+#midiaJS{
+  width: 500px;
+  height: 312;
+}
+
+#titulo{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 8px;
+  font-size: 21px;
+  padding: 0 15px;
+  text-align: center;
+}
+
+#autor{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 8px;
+  padding: 0 15px;
+  text-align: center;
+}
+
+#explicacao{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 20px;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.data{
+  height: 50px;
+  width: 200px;
+  font-size: 16px;
+  text-align: center;
+  border: 2px solid black;
+  color: grey;
+  margin-top: 28px;
+}
+
+#texto{
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  margin-top: 5px;
+  padding: 0 15px;
+}
+
+.botao{
+  margin-top: 15px;
+  height: 35px;
+  width: 120px;
+  background: black;
+  color: #f1f1f1;
+  border-width: 5px;
+}
+.rodape {
+  width: 100%;
+  background: black;
+  color: whitesmoke;
+  text-align: center;
+  padding: 10px;
+}
+
+@media (max-width: 700px) {
+  .cabecalho{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 90px;
+  }
+
+  .logo{
+      margin-left: 0;
+  }
+
+  #midia{
+      width: 90%;
+  }
+
+  #midiaJS{
+      width: 100%;
+
+  }
+
+  .data{
+      background: white;
+  }
+
+}
